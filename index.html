@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of the Venice Vikings. We are proud to promote over 50 years of excellence on and off the field.">
+
+    <title>Venice Vikings</title>
+
+    <!--Favicons-->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- links local bootstrap css file and custom css-->
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!-- CDN link for font awesome (get icons for brands too)-->
+    <link rel="stylesheet" href="/fonts/fontawesome-free-5.15.3-web/css/all.css">
+
+    <!--links google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:wght@100;300;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <!-- dark navbar-->
+    <nav class="navbar navbar-dark navbar-expand-md">
+        
+        <a class="navbar-brand"  href="">Venice Vikings</a>
+
+        <!--toggles drop down button at md size or smaller-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapseBar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="sponsors.html">Sponsors</a></li>
+                <li class="nav-item"><a class="nav-link" href="schedule.html">Game Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- home pages images/carousel-->
+    <div class="container-fluid carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active d-flex">
+                <picture>
+                    <!--use different image if width is smaller than 800px-->
+                    <source srcset="img/home-slide-1-sm.jpg" media="(max-width: 800px)">
+                    <source srcset="img/home-slide-1.jpg">
+                    <img src="img/home-slide-1.jpg" class="min-vh-85" alt="football field">
+                </picture>
+                <div class="carousel-caption" data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000">
+                    <h1>Venice Vikings</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source srcset="img/home-slide-2-sm.jpg" media="(max-width: 800px)">
+                    <source srcset="img/home-slide-2.jpg">
+                    <img src="img/home-slide-2.jpg" class="min-vh-85" alt="catching football">
+                </picture>
+            </div>
+            <div class="carousel-item">
+                <picture>
+                    <source srcset="img/home-slide-3-sm.jpg" media="(max-width: 800px)">
+                    <source srcset="img/home-slide-3.jpg">
+                    <img src="img/home-slide-3.jpg" class="min-vh-85" alt="kids playing">
+                </picture>
+            </div>
+        </div>
+    </div>
+
+    <!--main body with cards-->
+    <div class="container">
+        <div class="about-card" data-aos="fade-up" data-aos-duration="2000" >
+            <div class="about-card-body">
+            <h1 class="about-card-title">Venice Vikings</h1>
+            <p class="about-card-text">The official website of the Venice Vikings Football and Cheer Association. We are located in Venice, Florida and members of the Pop Warner Youth Football and Cheer Organization within the Peace River Conference. We are proud to promote over 50 years of excellence on and off the field. Learn more about our board of directors, coaches, and age divisions.</p>
+            <a href="about.html" class="btn btn-primary float-right">About Us</a>
+            </div>
+        </div>
+        <div class="row card-row d-flex justify-content-center">
+            <div class="col-md-1"></div>
+            <div class="col-md-4 card-sector" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                <a href="schedule.html">
+                    <div class="card">
+                        <i class="card-icon fa fa-calendar-alt fa-6x" aria-hidden="true"></i>
+                        <div class="card-body">
+                            <h1>Game Schedule</h1>
+                            <p class="card-text">Click here to learn more about the current schedule for cheer and football 6U through 14U.</p>
+                        </div>
+                    </div>
+                    <div class="learn-more">
+                        <div class="learn-more-text">Learn More</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4 card-sector" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+                <a href="sponsors.html">
+                    <div class="card">
+                        <i class="card-icon fas fa-handshake fa-6x" aria-hidden="true"></i>
+                        <div class="card-body">
+                            <h1>Sponsors</h1>
+                            <p class="card-text">The Venice Vikings program is only possible because of the generosity of our community sponsors. Click to learn more.</p>
+                        </div>
+                    </div>
+                    <div class="learn-more">
+                        <div class="learn-more-text">Learn More</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+
+        <div class="row card-row d-flex justify-content-center">
+            <div class="col-md-3 card-sector" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+                <a href="https://venicevikings.wixsite.com/mysite">
+                    <div class="card">
+                        <i class="card-icon fas fa-shopping-cart fa-6x" aria-hidden="true"></i>
+                        <div class="card-body">
+                            <h1>Spirit Shop</h1>
+                            <p class="card-text">Click here to visit our spirit shop and get your merchandise before the next game!</p>
+                        </div>
+                    </div>
+                    <div class="learn-more">
+                        <div class="learn-more-text">Learn More</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3 card-sector" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+                <a href="https://www.facebook.com/groups/VeniceVikings">
+                    <div class="card">
+                        <i class="card-icon fab fa-facebook-square fa-6x" style="color: #202020" aria-hidden="true"></i>
+                        <div class="card-body">
+                            <h1>Facebook Group</h1>
+                            <p class="card-text">Click here to join our private facebook group.</p>
+                        </div>
+                    </div>
+                    <div class="learn-more">
+                        <div class="learn-more-text">Learn More</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3 card-sector" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+                <a href="contact.html">
+                    <div class="card">
+                        <i class="card-icon fas fa-comment-dots fa-6x" aria-hidden="true"></i>
+                        <div class="card-body">
+                            <h1>Contact Us</h1>
+                            <p class="card-text">Click here to find us on the map, facebook, or shoot us an email.</p>
+                        </div>
+                    </div>
+                    <div class="learn-more">
+                        <div class="learn-more-text">Learn More</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer container-fluid">
+        
+        <div class="row">
+            <div class="footer col-sm-6">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link foot-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link foot-link" href="sponsors.html">Sponsors</a></li>
+                    <li class="nav-item"><a class="nav-link foot-link" href="schedule.html">Game Schedule</a></li>
+                </ul>
+            </div>
+            <div class="footer col-sm-6">
+                <a class="foot-link" href="contact.html">Contact Us</a>
+                <br>
+                1001 Pinebrook Road. Venice, FL. 34285
+                <br>
+                (941) 485 - 0331
+                <br>
+                venicevikings@yahoo.com
+                <br>
+                <a href="https://www.facebook.com/VeniceVikings"><i class="fab fa-facebook fa-lg"></i></a>
+                <br>
+                <span style="font-size: 0.7rem;"><a href="https://instagram.com/jackwardlaw_">Website by Jack Wardlaw.</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- links local bootstrap and jQuery js files-->
+    <script src="bootstrap-4.3.1-dist/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

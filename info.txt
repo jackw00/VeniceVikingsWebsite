@@ -1,0 +1,19 @@
+jet-black: #303030
+dark-green: #093219
+middle-green: #287446
+light-green: #29CB6A
+super-light greens: #bfffbf ; #deffde ; #96ff96
+
+
+ABC Supply 
+Absolute Aluminum 
+Bogey's of Venice
+Gulfside Mortgage 
+Horse & Chaise
+Jacaranda Animal Hospital 
+Integrity Employee Leasing 
+Millennium Physician's Group 
+Sunshine Inn & Suites 
+Superior Pools 
+Will's Honky Tonk 
+Summit Excavating
